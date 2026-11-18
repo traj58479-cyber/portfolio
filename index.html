@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj | Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%234f46e5'/><text x='50' y='67' font-size='52' font-family='monospace' font-weight='bold' fill='white' text-anchor='middle'>%3E_</text></svg>">
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+     <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Header & Navigation -->
+<header class="navbar">
+        <nav class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-terminal"></i></span>
+                <span class="logo-text">Raj<span>.dev</span></span>
+            </a>
+
+            <!-- Pure CSS Hamburger Toggle -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Focus</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#resume-modal">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- Pure CSS Theme Toggle -->
+            <input type="checkbox" id="theme-toggle" class="theme-toggle">
+            <label for="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode" title="Switch Theme">
+                <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-sun"></i>
+            </label>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">B.Tech CSE Final Year • Open to Software &amp; Tech Roles</div>
+            <h1>Hi, I'm <span>Raj</span></h1>
+            <p>Computer Science undergrad based in Mathura. I build hand-coded web interfaces from scratch without frameworks, write structured logic in C and Java, and enjoy solving algorithmic problems.</p>
+            
+            <div class="tech-stack">
+                <span><i class="fa-brands fa-java"></i> Java &amp; DSA</span>
+                <span><i class="fa-solid fa-microchip"></i> C Programming</span>
+                <span><i class="fa-brands fa-html5"></i> HTML5</span>
+                <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                <span><i class="fa-brands fa-git-alt"></i> Git &amp; GitHub</span>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn-primary">See My Work</a>
+                <a href="#resume-modal" class="btn-secondary"><i class="fa-solid fa-file-lines"></i> Quick Resume</a>
+                <a href="#contact" class="btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+    <!-- Features / Skills Section -->
+    <section id="features" class="features">
+        <div class="section-header">
+            <h2>What I Focus On</h2>
+            <p>Areas where I spend most of my time coding, practicing, and building projects.</p>
+        </div>
+
+        <div class="features-grid">
+            <!-- Card 1 -->
+            <div class="feature-card">
+                <div class="icon-box"><i class="fa-solid fa-code"></i></div>
+                <h3>Hand-Coded Frontend</h3>
+                <p>Writing semantic HTML5 and pure CSS3 layouts—grids, modals, and theme toggles—without relying on heavy frameworks.</p>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="feature-card">
+                <div class="icon-box"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                <h3>Mobile-First Layouts</h3>
+                <p>Structuring pages with CSS Grid, Flexbox, and clean breakpoints so everything stays readable from a 360px phone to a wide monitor.</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="feature-card">
+                <div class="icon-box"><i class="fa-solid fa-laptop-code"></i></div>
+                <h3>C &amp; Java Fundamentals</h3>
+                <p>Building console tools with custom structs and file handling in C, alongside object-oriented backend logic in Java.</p>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="feature-card">
+                <div class="icon-box"><i class="fa-solid fa-lightbulb"></i></div>
+                <h3>DSA &amp; Core CS</h3>
+                <p>Practicing two-pointer array problems, numeric logic, and core Computer Science subjects for GATE and technical interviews.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Proficiency Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2>Tools &amp; Stack</h2>
+            <p>Technologies I use regularly across coursework, personal builds, and coding practice.</p>
+        </div>
+
+        <div class="skills-container">
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span><i class="fa-brands fa-html5"></i> HTML5 &amp; Semantic Structure</span>
+                    <span>Daily Use</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="--level: 90%;"></div></div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span><i class="fa-brands fa-css3-alt"></i> CSS3, Grid &amp; Custom UI</span>
+                    <span>Daily Use</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="--level: 85%;"></div></div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span><i class="fa-brands fa-java"></i> Java &amp; OOP Principles</span>
+                    <span>Strong Base</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="--level: 80%;"></div></div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span><i class="fa-solid fa-microchip"></i> C Programming &amp; File I/O</span>
+                    <span>Strong Base</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="--level: 82%;"></div></div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span><i class="fa-brands fa-git-alt"></i> Git &amp; GitHub Pages</span>
+                    <span>Regular</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="--level: 85%;"></div></div>
+            </div>
+
+            <div class="skill-item">
+                <div class="skill-info">
+                    <span><i class="fa-solid fa-leaf"></i> Spring Boot &amp; Java DSA</span>
+                    <span>In Progress</span>
+                </div>
+                <div class="skill-bar"><div class="skill-fill" style="--level: 70%;"></div></div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2>Things I've Built</h2>
+            <p>Practical codebases from my coursework and personal builds—each focused on clean logic and zero bloat.</p>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-top">
+                    <span class="project-tag">Java • Full-Stack</span>
+                    <a href="https://github.com/traj58479-cyber/resume-portfolio-generator" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repo">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <h3>Resume &amp; Portfolio Generator</h3>
+                <p>Takes raw user details through a clean frontend form and maps them into formatted resume layouts using a Spring Boot backend.</p>
+                <div class="project-tech">
+                    <span>Java</span>
+                    <span>Spring Boot</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-top">
+                    <span class="project-tag">C • Systems</span>
+                    <a href="https://github.com/traj58479-cyber/student-record-management-c" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repo">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <h3>Student Record Management</h3>
+                <p>Menu-driven CLI tool built in C with custom structs and binary file handling so student entries persist across sessions without a database.</p>
+                <div class="project-tech">
+                    <span>C</span>
+                    <span>Structs</span>
+                    <span>File I/O</span>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-top">
+                    <span class="project-tag">Pure HTML &amp; CSS</span>
+                    <a href="#home" aria-label="Live Preview">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+                <h3>Raj.dev Portfolio (v1)</h3>
+                <p>Hand-coded from scratch in a Charcoal &amp; Silver palette—includes a pure-CSS dark mode toggle, mobile drawer, and resume modal with zero JavaScript.</p>
+                <div class="project-tech">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Zero-JS UI</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Education & Milestones Section -->
+   <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education &amp; Experience</h2>
+            <p class="section-subtitle">Where I'm studying and what I've shipped recently.</p>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 – 2027 • 4th Year</span>
+                        <h3>B.Tech in Computer Science &amp; Engineering</h3>
+                        <p class="timeline-org">GL Bajaj Group of Institutions, Mathura (AKTU)</p>
+                        <p>Final-year undergrad with zero backlogs through 6th semester. Currently practicing Java DSA, reviewing Operating Systems and Digital Logic for GATE CSE, and building core web projects.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2026</span>
+                        <h3>Web Development Intern &amp; Independent Builds</h3>
+                        <p class="timeline-org">Maincrafts Technology • GitHub Projects</p>
+                        <p>Delivered responsive layouts in pure HTML5 and CSS3, developed a Spring Boot Resume &amp; Portfolio Generator, and wrote a file-backed student record manager in C.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-card">
+            <h2>Want to Work Together?</h2>
+            <p>I'm open to software development internships, entry-level tech roles, and interesting coding collaborations. Drop an email or check out my repositories.</p>
+            <div class="contact-actions">
+                <a href="mailto:traj58479@gmail.com" class="btn-primary">
+                    <i class="fa-solid fa-envelope"></i> Email Me
+                </a>
+                <a href="https://github.com/traj58479-cyber" target="_blank" rel="noopener noreferrer" class="btn-outline-dark">
+                    <i class="fa-brands fa-github"></i> GitHub Profile
+                </a>
+            </div>
+            <p class="email-display">
+                <i class="fa-regular fa-copy"></i> Direct email (click to select): <span>traj58479@gmail.com</span>
+            </p>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#features">Focus</a>
+                <a href="#projects">Projects</a>
+                <a href="https://github.com/traj58479-cyber" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/raj-thakur-a91b3a364" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            </div>
+            <p class="copyright">&copy; 2026 Raj Thakur • Hand-coded in pure HTML5 &amp; CSS3 in Mathura, India.</p>
+        </div>
+    </footer>
+
+    <a href="#home" class="scroll-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- Pure CSS Quick Resume Modal -->
+    <div id="resume-modal" class="modal-overlay">
+        <div class="modal-card">
+            <a href="#home" class="modal-close" aria-label="Close Resume">&times;</a>
+            <div class="modal-header">
+                <h2>Raj Thakur</h2>
+                <p>B.Tech CSE (2023–2027) • GL Bajaj Group of Institutions, Mathura (AKTU)</p>
+            </div>
+
+            <div class="modal-body">
+                <div class="resume-block">
+                    <h4>Technical Stack</h4>
+                    <p>Java (OOP &amp; DSA), C Programming (Structs &amp; File I/O), HTML5, CSS3, Spring Boot, Git &amp; GitHub</p>
+                </div>
+                <div class="resume-block">
+                    <h4>Key Projects</h4>
+                    <ul>
+                        <li><strong>Resume &amp; Portfolio Generator:</strong> Spring Boot backend paired with custom HTML5/CSS3 forms to generate structured resumes.</li>
+                        <li><strong>Student Record Management:</strong> CLI CRUD system in C using custom structures and persistent file handling.</li>
+                        <li><strong>Raj.dev Portfolio:</strong> Zero-JavaScript site built from scratch with pure CSS dark mode, mobile drawer, and modal views.</li>
+                    </ul>
+                </div>
+                <div class="resume-block">
+                    <h4>Contact &amp; Links</h4>
+                    <p>
+                        Email: <a href="mailto:traj58479@gmail.com">traj58479@gmail.com</a> • 
+                        GitHub: <a href="https://github.com/traj58479-cyber" target="_blank" rel="noopener noreferrer">github.com/traj58479-cyber</a>
+                        LinkedIn: <a href="https://www.linkedin.com/in/raj-thakur-a91b3a364" target="_blank" rel="noopener noreferrer">in/raj-thakur-a91b3a364</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
